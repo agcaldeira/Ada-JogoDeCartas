@@ -18,4 +18,10 @@ public class EfeitoCarta {
 		this.poder = poder;
 	}
 	
+	public EfeitoCarta(String nome, Integer poder) {
+		super();
+		this.nome = nome;
+		this.poder = poder;
+	}
+	
 }

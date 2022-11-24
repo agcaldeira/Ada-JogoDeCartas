@@ -2,6 +2,12 @@ package Carta;
 
 public class AtaqueImpl extends AbstractCarta implements Ataque {
 
+	public AtaqueImpl(String nome, String tipo, Integer custo, Integer poder, Integer resistencia) {
+		super(nome, tipo, custo);
+		this.poder = poder;
+		this.resistencia = resistencia;
+	}
+
 	private Integer poder;
 	private Integer resistencia;
 	

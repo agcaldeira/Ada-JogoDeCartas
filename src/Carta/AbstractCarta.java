@@ -44,6 +44,16 @@ public abstract class AbstractCarta implements Carta {
 	void setCusto(Integer custo) {
 		this.custo = custo;
 	}
+
+	public AbstractCarta(String nome, String tipo, Integer custo) {
+		super();
+		this.nome = nome;
+		this.tipo = tipo;
+		this.custo = custo;
+	}
+	
+	
+	
 	
 	
 

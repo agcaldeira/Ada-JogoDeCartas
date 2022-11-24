@@ -27,5 +27,12 @@ public abstract class AbstractJogador {
 	void setDeck(AbstractDeck deck) {
 		this.deck = deck;
 	}
+	public AbstractJogador(String nome, Integer vida) {
+		super();
+		this.nome = nome;
+		this.vida = vida;
+	}
+	
+	
 	
 }

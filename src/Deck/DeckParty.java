@@ -3,7 +3,9 @@ package Deck;
 public class DeckParty extends AbstractDeck {
 	
 	public DeckParty(){
-		this.quantidadeCartas = 80;	
+		super(80);
 	}
+	
+	
 
 }

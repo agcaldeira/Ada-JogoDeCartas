@@ -4,7 +4,7 @@ public class DeckVersus extends AbstractDeck {
 
 	
 	public DeckVersus(){
-		this.quantidadeCartas = 50;	
+		super(50);
 	}
 
 }
